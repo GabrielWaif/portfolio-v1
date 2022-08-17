@@ -22,7 +22,6 @@ contact.addEventListener('click', function(){
 option.forEach(function(a, i){
     a.addEventListener('click', () => {
         goDown(i-1);
-        console.log(i)
     })
 })
 
