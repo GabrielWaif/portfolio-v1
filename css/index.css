@@ -351,7 +351,6 @@ header{
 
 .projeto .textos-projeto p{
     display: none;
-    word-break: break-all;
     color: #000853;
 }
 .projeto:hover .textos-projeto p{
