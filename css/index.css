@@ -107,7 +107,7 @@ header{
     display: flex;
     justify-content: center;
     background-color: var(--grey);
-    background-image: url('/img/future-grid.webp');
+    background-image: url('future-grid.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
