@@ -25,7 +25,6 @@ const Navbar = () => {
   }, []);
 
   const hamburgerShow = () => {
-    console.log("teste");
     if (window.innerWidth >= 1000 && isClosed) {
       setDisplay(flex);
     } else {
