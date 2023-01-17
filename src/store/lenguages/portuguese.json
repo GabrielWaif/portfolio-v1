@@ -11,7 +11,10 @@
     "subtitle": "Estudante de engenharia de software.",
     "change": "Mudar linguagem"
   },
-
+  "projectButtons": {
+    "view": "VER",
+    "code": "CÓDIGO"
+  },
   "projectsTitle": "PROJETOS",
   "projects": [
     {
@@ -23,7 +26,7 @@
       "title": "Site de Filmes",
       "tags": ["React", ".Net", "TypeScript", "MySQL"],
       "imageLink": "https://i.imgur.com/ZiuO3KU.png",
-      "description": "Projeto full stack em asp e REACT, site baseado no site MyAnimeList só que para filmes, onde o usuário pode criar contas favoritas dos seus filmes favoritos.",
+      "description": "Site onde o usuário pode ver os filmes que foram cadastrados, e interagir com eles de diversas formas sendo algumas delas, favoritar, comentar, encontrar outros usuários que gostem do mesmo filme, pesquisar filmes que compartilham gêneros e fazer amizade com outros usuários .",
       "codeLink": "https://github.com/GabrielWaif/MovieApp",
       "viewLink": "https://gabrielwaif.github.io/MovieApp/#/"
     },
@@ -31,7 +34,7 @@
       "title": "Site de Afazeres",
       "tags": ["React"],
       "imageLink": "https://i.imgur.com/gefHoQv.png",
-      "description": "Um dos exercícios desenvolvidos no aprendizado de reator. Site para fazer uma lista de coisas para fazer.",
+      "description": "Este projeto foi desenvolvido quando comecei a estudar React, então ele mostra o uso básico dos hooks, você pode compará-lo com projetos mais recentes para ver a evolução.",
       "codeLink": "https://github.com/GabrielWaif/ToDoList",
       "viewLink": "https://gabrielwaif.github.io/ToDoList/"
     },
@@ -39,7 +42,7 @@
       "title": "Portfólio",
       "tags": ["React", "CSS", "Vite"],
       "imageLink": "https://imgur.com/oWwU8Bh.png",
-      "description": "Projeto explorando UI moderna, feito do 0 usando CSS e um pouco de JavaScript. Nesse projeto eu exporei o uso de Flexbox aprofundado e animações.",
+      "description": "Este projeto foi desenvolvido inicialmente usando HTML base CSS e JS, depois de ter alguns problemas de manutenção com HTML base decidi adapta-lo para React. Aqui construí uma landing page moderna, com informações concisas, mas importantes sobre mim e meus trabalhos.",
       "codeLink": "https://github.com/GabrielWaif/Portfolio01/",
       "viewLink": "https://gabrielwaif.github.io/Portfolio01/"
     }
@@ -48,19 +51,39 @@
   "info": {
     "aboutMe": {
       "title": "SOBRE MIM",
-      "text": "Eu sou Gabriel, um desenvolvedor em busca de oportunidades de mostrar suas habilidades, que está fazendo faculdade de engenharia de Software.\n Atualmente estou explorando diferentes frameworks de front end e linguagens orientadas a objeto como C# e Java."
+      "text": "Bem-vindo ao meu portfólio! Meu nome é Gabriel Rosa, sou um estudante de engenharia de software com foco em desenvolvimento full-stack, minhas principais tecnologias sao utilizando React JS e .NET. Gosto de criar programas eficientes e fáceis de utilizar. Ao longo de meus estudos e projetos, desenvolvi habilidades design de software e resolução de problemas. Estou animado para compartilhar meu trabalho com você e mostrar minhas habilidades como Developer."
     },
     "tech": {
       "title": "TECNOLOGIAS",
       "icons": [
-        "devicon-html5-plain",
-        "devicon-css3-plain",
-        "devicon-javascript-plain",
-        "devicon-java-plain",
-        "devicon-csharp-plain",
-        "devicon-mysql-plain",
-        "devicon-figma-plain",
-        "devicon-git-plain"
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "Java",
+          "icon": "devicon-java-plain"
+        },
+        {
+          "name": ".Net",
+          "icon": "devicon-dot-net-plain"
+        },
+        {
+          "name": "MySQL",
+          "icon": "devicon-mysql-plain"
+        },
+        {
+          "name": "React",
+          "icon": "devicon-react-original"
+        },
+        {
+          "name": "Git",
+          "icon": "devicon-git-plain"
+        }
       ]
     }
   }

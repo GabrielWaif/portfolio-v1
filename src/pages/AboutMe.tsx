@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import IntroductionSocialsButton from "../components/UI/IntroductionSocialsButtons";
 import { RootStore } from "../store/redux-store";
 import { scrollActions } from "../store/scroll-slice";
 
@@ -33,7 +34,12 @@ const AboutMe = () => {
           <h1>{info.tech.title}</h1>
           <div id="icones-tec">
             {info.tech.icons.map((icon) => {
-              return <i key={icon} className={icon} />;
+              return (
+                <div>
+                  <i key={icon.icon} className={icon.icon} />
+                  <div>{icon.name}</div>
+                </div>
+              );
             })}
           </div>
         </div>

@@ -11,7 +11,10 @@
     "subtitle": "Software Engeneering Student.",
     "change": "Change Lenguage"
   },
-
+  "projectButtons": {
+    "view": "VIEW",
+    "code": "CODE"
+  },
   "projectsTitle": "PROJECTS",
   "projects": [
     {
@@ -23,7 +26,7 @@
       "title": "Movie App",
       "tags": ["React", ".Net", "TypeScript", "MySQL"],
       "imageLink": "https://i.imgur.com/ZiuO3KU.png",
-      "description": "",
+      "description": "Web aplication were the user can see the movies that were registered, and interact with them in a pletitude of way some of them beeing, favoriting, commenting, finding other users that like the same movie, searching for movies that share genres and befriending other users.",
       "codeLink": "https://github.com/GabrielWaif/MovieApp",
       "viewLink": "https://gabrielwaif.github.io/MovieApp/#/"
     },
@@ -31,7 +34,7 @@
       "title": "To Do List",
       "tags": ["React"],
       "imageLink": "https://i.imgur.com/gefHoQv.png",
-      "description": "",
+      "description": "This project was developed when I started studying React, so it shows the basic usage of React hooks, you can compare it to more recent projects to see the evolution.",
       "codeLink": "https://github.com/GabrielWaif/ToDoList",
       "viewLink": "https://gabrielwaif.github.io/ToDoList/"
     },
@@ -39,7 +42,7 @@
       "title": "Portfolio",
       "tags": ["React", "CSS", "Vite"],
       "imageLink": "https://imgur.com/oWwU8Bh.png",
-      "description": "",
+      "description": "This project was firstly developed using plane HTML CSS and JS, after having some maintainabiliy problems with plane HTML I decided to adpt it to React. Here I built a modern looking landing page, with consise but important information about me and my works.",
       "codeLink": "https://github.com/GabrielWaif/Portfolio01/",
       "viewLink": "https://gabrielwaif.github.io/Portfolio01/"
     }
@@ -48,19 +51,39 @@
   "info": {
     "aboutMe": {
       "title": "ABOUT ME",
-      "text": ""
+      "text": "This project was firstly developed using plane HTML CSS and JS, but after studying React and having some maintainabiliy problems with plane HTML I decided to adapt it to React, you can compare the old-html branch with the main React branch for the process. Here I decided to build a modern-looking landing page, with concise but important information about me and my work."
     },
     "tech": {
       "title": "TECHNOLOGIES",
       "icons": [
-        "devicon-html5-plain",
-        "devicon-css3-plain",
-        "devicon-javascript-plain",
-        "devicon-java-plain",
-        "devicon-csharp-plain",
-        "devicon-mysql-plain",
-        "devicon-figma-plain",
-        "devicon-git-plain"
+        {
+          "name": "CSS",
+          "icon": "devicon-css3-plain"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "Java",
+          "icon": "devicon-java-plain"
+        },
+        {
+          "name": ".Net",
+          "icon": "devicon-dot-net-plain"
+        },
+        {
+          "name": "MySQL",
+          "icon": "devicon-mysql-plain"
+        },
+        {
+          "name": "React",
+          "icon": "devicon-react-original"
+        },
+        {
+          "name": "Git",
+          "icon": "devicon-git-plain"
+        }
       ]
     }
   }

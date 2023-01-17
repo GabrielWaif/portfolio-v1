@@ -1,12 +1,18 @@
 import { Project } from "../type/types";
 import ProjectTags from "./ProjectTags";
 import defaultGif from "../assets/default.gif";
+import { useSelector } from "react-redux";
+import { RootStore } from "../store/redux-store";
 
 type props = {
   project: Project;
 };
 
 const ProjectContainer = ({ project }: props) => {
+  const buttons = useSelector(
+    (state: RootStore) => state.lenguage.projectButtons
+  );
+
   return (
     <div className="projeto">
       {project.imageLink && <img src={project.imageLink} alt="project" />}
@@ -28,7 +34,7 @@ const ProjectContainer = ({ project }: props) => {
               target="_blank"
               className="project-button"
             >
-              VIEW
+              {buttons.view}
             </a>
           )}
           {project.codeLink && (
@@ -37,7 +43,7 @@ const ProjectContainer = ({ project }: props) => {
               target="_blank"
               className="project-button"
             >
-              CODE
+              {buttons.code}
             </a>
           )}
         </div>

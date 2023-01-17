@@ -316,7 +316,8 @@ header {
   background-color: white;
   box-shadow: 0 0 40px rgba(26, 26, 26, 0.815);
   margin-top: 3vh;
-  height: 400px;
+  height: fit-content;
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -362,12 +363,12 @@ header {
 
 .textos-projeto {
   width: 90%;
-  margin-top: 20px;
 }
 
 .projeto .textos-projeto p {
   display: none;
   color: #000853;
+  text-align: center;
 }
 .projeto:hover .textos-projeto p {
   display: block;
@@ -538,10 +539,33 @@ header {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+#icones-tec div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 
-#icones-tec i {
-  font-size: 8vh;
+#icones-tec div:hover div {
+  background-color: var(--red);
+  display: inherit;
+}
+#icones-tec div div {
+  position: absolute;
+  width: 100%;
+  display: none;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+#icones-tec div {
+  padding: 5px;
   margin-bottom: 20px;
+}
+
+#icones-tec i{
+  font-size: 8vh;
 }
 
 ::-webkit-scrollbar {
@@ -712,7 +736,7 @@ textarea {
   #contato h1 {
     font-size: 30px;
   }
-  #project-title{
+  #project-title {
     font-size: 30px;
   }
 
