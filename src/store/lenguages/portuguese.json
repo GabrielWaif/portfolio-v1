@@ -1,0 +1,67 @@
+{
+  "small": "pt_br",
+  "navbar": {
+    "home": "HOME",
+    "projects": "PROJETOS",
+    "about": "SOBRE",
+    "contact": "CONTATO"
+  },
+
+  "home": {
+    "subtitle": "Estudante de engenharia de software.",
+    "change": "Mudar linguagem"
+  },
+
+  "projectsTitle": "PROJETOS",
+  "projects": [
+    {
+      "title": "Clone do Whatsapp",
+      "tags": [],
+      "description": "Em desenvolvimento..."
+    },
+    {
+      "title": "Site de Filmes",
+      "tags": ["React", ".Net", "TypeScript", "MySQL"],
+      "imageLink": "https://i.imgur.com/ZiuO3KU.png",
+      "description": "Projeto full stack em asp e REACT, site baseado no site MyAnimeList só que para filmes, onde o usuário pode criar contas favoritas dos seus filmes favoritos.",
+      "codeLink": "https://github.com/GabrielWaif/MovieApp",
+      "viewLink": "https://gabrielwaif.github.io/MovieApp/#/"
+    },
+    {
+      "title": "Site de Afazeres",
+      "tags": ["React"],
+      "imageLink": "https://i.imgur.com/gefHoQv.png",
+      "description": "Um dos exercícios desenvolvidos no aprendizado de reator. Site para fazer uma lista de coisas para fazer.",
+      "codeLink": "https://github.com/GabrielWaif/ToDoList",
+      "viewLink": "https://gabrielwaif.github.io/ToDoList/"
+    },
+    {
+      "title": "Portfólio",
+      "tags": ["React", "CSS", "Vite"],
+      "imageLink": "https://imgur.com/oWwU8Bh.png",
+      "description": "Projeto explorando UI moderna, feito do 0 usando CSS e um pouco de JavaScript. Nesse projeto eu exporei o uso de Flexbox aprofundado e animações.",
+      "codeLink": "https://github.com/GabrielWaif/Portfolio01/",
+      "viewLink": "https://gabrielwaif.github.io/Portfolio01/"
+    }
+  ],
+
+  "info": {
+    "aboutMe": {
+      "title": "SOBRE MIM",
+      "text": "Eu sou Gabriel, um desenvolvedor em busca de oportunidades de mostrar suas habilidades, que está fazendo faculdade de engenharia de Software.\n Atualmente estou explorando diferentes frameworks de front end e linguagens orientadas a objeto como C# e Java."
+    },
+    "tech": {
+      "title": "TECNOLOGIAS",
+      "icons": [
+        "devicon-html5-plain",
+        "devicon-css3-plain",
+        "devicon-javascript-plain",
+        "devicon-java-plain",
+        "devicon-csharp-plain",
+        "devicon-mysql-plain",
+        "devicon-figma-plain",
+        "devicon-git-plain"
+      ]
+    }
+  }
+}

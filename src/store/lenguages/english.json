@@ -1,0 +1,67 @@
+{
+  "small": "eng",
+  "navbar": {
+    "home": "HOME",
+    "projects": "PROJECTS",
+    "about": "ABOUT",
+    "contact": "CONTACT"
+  },
+
+  "home": {
+    "subtitle": "Software Engeneering Student.",
+    "change": "Change Lenguage"
+  },
+
+  "projectsTitle": "PROJECTS",
+  "projects": [
+    {
+      "title": "Whatsapp Clone",
+      "tags": [],
+      "description": "In development..."
+    },
+    {
+      "title": "Movie App",
+      "tags": ["React", ".Net", "TypeScript", "MySQL"],
+      "imageLink": "https://i.imgur.com/ZiuO3KU.png",
+      "description": "",
+      "codeLink": "https://github.com/GabrielWaif/MovieApp",
+      "viewLink": "https://gabrielwaif.github.io/MovieApp/#/"
+    },
+    {
+      "title": "To Do List",
+      "tags": ["React"],
+      "imageLink": "https://i.imgur.com/gefHoQv.png",
+      "description": "",
+      "codeLink": "https://github.com/GabrielWaif/ToDoList",
+      "viewLink": "https://gabrielwaif.github.io/ToDoList/"
+    },
+    {
+      "title": "Portfolio",
+      "tags": ["React", "CSS", "Vite"],
+      "imageLink": "https://imgur.com/oWwU8Bh.png",
+      "description": "",
+      "codeLink": "https://github.com/GabrielWaif/Portfolio01/",
+      "viewLink": "https://gabrielwaif.github.io/Portfolio01/"
+    }
+  ],
+
+  "info": {
+    "aboutMe": {
+      "title": "ABOUT ME",
+      "text": ""
+    },
+    "tech": {
+      "title": "TECHNOLOGIES",
+      "icons": [
+        "devicon-html5-plain",
+        "devicon-css3-plain",
+        "devicon-javascript-plain",
+        "devicon-java-plain",
+        "devicon-csharp-plain",
+        "devicon-mysql-plain",
+        "devicon-figma-plain",
+        "devicon-git-plain"
+      ]
+    }
+  }
+}
