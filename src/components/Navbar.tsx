@@ -13,17 +13,19 @@ const flex = { display: "flex" };
 
 const Navbar = () => {
   const navOptions = useSelector((state: any) => state.lenguage.navbar);
-  const [isClosed, setIsClosed] = useState<boolean>(false);
+  const [isClosed, setIsClosed] = useState<boolean>(true);
   const [display, setDisplay] = useState<any>(flex);
 
   useEffect(() => {
     window.addEventListener("resize", hamburgerShow);
+
     return () => {
       window.removeEventListener("resize", hamburgerShow);
     };
   }, []);
 
   const hamburgerShow = () => {
+    console.log("teste");
     if (window.innerWidth >= 1000 && isClosed) {
       setDisplay(flex);
     } else {
