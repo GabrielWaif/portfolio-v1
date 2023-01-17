@@ -33,7 +33,6 @@ const Navbar = () => {
   };
 
   const showHamburgerClickHandler = () => {
-    console.log("hamburger");
     if (isClosed) {
       setDisplay(flex);
       setIsClosed(false);

@@ -5,12 +5,17 @@ import { scrollActions } from "../store/scroll-slice";
 
 const AboutMe = () => {
   const info = useSelector((state: RootStore) => state.lenguage.info);
+
   const dispatch = useDispatch();
 
   const container = useRef<any>();
 
   useEffect(() => {
     dispatch(scrollActions.setAbout(container.current.clientHeight));
+
+    window.addEventListener("resize", () => {
+      dispatch(scrollActions.setAbout(container.current.clientHeight));
+    });
   }, []);
 
   return (

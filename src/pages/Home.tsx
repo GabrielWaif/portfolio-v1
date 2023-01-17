@@ -9,14 +9,18 @@ import { RootStore } from "../store/redux-store";
 import { scrollActions } from "../store/scroll-slice";
 
 const Home = () => {
-  const dispatch = useDispatch();
-
   const home = useSelector((state: RootStore) => state.lenguage.home);
+
+  const dispatch = useDispatch();
 
   const container = useRef<any>();
 
   useEffect(() => {
     dispatch(scrollActions.setHome(container.current.clientHeight));
+
+    window.addEventListener("resize", () => {
+      dispatch(scrollActions.setHome(container.current.clientHeight));
+    });
   }, []);
 
   const changeLenguage = () => {

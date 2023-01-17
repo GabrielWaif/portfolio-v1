@@ -4,14 +4,12 @@ type scroll = {
   homeHeight: number;
   projectsHeight: number;
   aboutMeHeight: number;
-  contactHeight: number;
 };
 
 const initialState: scroll = {
   homeHeight: 0,
   projectsHeight: 0,
   aboutMeHeight: 0,
-  contactHeight: 0,
 };
 
 const scrollSlice = createSlice({
@@ -20,6 +18,7 @@ const scrollSlice = createSlice({
   reducers: {
     setHome(state, actions) {
       state.homeHeight = actions.payload;
+      return state;
     },
     setAbout(state, actions) {
       state.aboutMeHeight = actions.payload;
@@ -27,10 +26,6 @@ const scrollSlice = createSlice({
     },
     setProjects(state, actions) {
       state.projectsHeight = actions.payload;
-      return state;
-    },
-    setContact(state, actions) {
-      state.contactHeight = actions.payload;
       return state;
     },
   },

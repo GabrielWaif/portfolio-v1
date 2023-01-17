@@ -20,6 +20,10 @@ const Projects = () => {
 
   useEffect(() => {
     dispatch(scrollActions.setProjects(container.current.clientHeight));
+
+    window.addEventListener("resize", () => {
+      dispatch(scrollActions.setProjects(container.current.clientHeight));
+    });
   }, []);
 
   return (
